@@ -17,11 +17,9 @@
             shellHook = ''
               if ! [ -f "devenv.nix" ]; then
                 curl https://raw.githubusercontent.com/oscar-schwarz/devenv-beste-schule-app/refs/heads/main/devenv.lock \
-                  > devenv.lock && \
+                > devenv.lock && \
                 curl https://raw.githubusercontent.com/oscar-schwarz/devenv-beste-schule-app/refs/heads/main/devenv.nix \
-                  > devenv.nix && \
-                curl https://raw.githubusercontent.com/oscar-schwarz/devenv-beste-schule-app/refs/heads/main/devenv.yaml \
-                  > devenv.yaml
+                > devenv.nix && \
               fi
             '';
           };
