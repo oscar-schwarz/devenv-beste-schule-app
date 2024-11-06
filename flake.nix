@@ -19,7 +19,7 @@
                 curl https://raw.githubusercontent.com/oscar-schwarz/devenv-beste-schule-app/refs/heads/main/devenv.lock \
                 > devenv.lock && \
                 curl https://raw.githubusercontent.com/oscar-schwarz/devenv-beste-schule-app/refs/heads/main/devenv.nix \
-                > devenv.nix && \
+                > devenv.nix
               fi
             '';
           };
