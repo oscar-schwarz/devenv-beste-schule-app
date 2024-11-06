@@ -85,7 +85,7 @@ in {
 
     # --- Show a welcome message
     echo -e '
-    # Welcome to the android beste.schule app developer shell
+    # Welcome to the mobile beste.schule app developer shell
 
     **Available commands:**
     - `devenv up` - starts all necessary services
