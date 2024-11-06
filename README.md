@@ -9,7 +9,7 @@
 1. Put this in your `.envrc`
 ```bash
 # make devenv available in shell and download beste.schule app devenv files
-use flake github:oscar-schwarz/devenv-beste-schule-app/e30c5bf6061b90de53cac2c6e0977c850c1bb762
+use flake github:oscar-schwarz/devenv-beste-schule-app/6076eeadbb34492cfa662b80a5d84d18d14efe53
 
 # `devenv shell` on direnv trigger
 source_url "https://raw.githubusercontent.com/cachix/devenv/82c0147677e510b247d8b9165c54f73d32dfd899/direnvrc" "sha256-7u4iDd1nZpxL4tCzmPG0dQgC5V+/44Ba+tHkPob1v2k="
